@@ -42,12 +42,14 @@ body {
     grid-area: footer;
     text-align: center;
     display: grid;
+    padding: 5px;
 
 }
 
 .container {
     display: grid;
     height: 100vh;
+    width: 100vw;
     grid-template-rows: 10% 1fr 10%;
     grid-template-areas:
         "header header  header header"
@@ -88,9 +90,11 @@ body {
     display: grid;
     grid-template-rows: 1fr;
     height: 10vh;
-    grid-gap: 50px;
+    grid-gap: 10px;
     grid-template-areas: "foot_1 foot_2 foot_3 foot_4";
     text-align: center;
+    padding: 10px;
+    margin: 5px;
 }
 
 .foot_1 {
